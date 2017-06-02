@@ -1,29 +1,170 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>Bootstrap 101 Template</title>
 
-    <!-- Bootstrap -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+<html>
+<head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title> Demo Candid a Photo Gallery Category Flat Bootstrap Responsive Web Template</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="css/style.css" />
+<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.8.1/jquery.min.js"></script>
+<script type='text/javascript'>//<![CDATA[
+   $(function() {
 
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
-  </head>
-  <body>
-    <h1>Hello, world!</h1>
-    <img src="images/basictracks.png">
+ $('.web').click(function(e){
+     e.preventDefault();
+   //$("#bg").attr('src',"template_preview/images/2x2.gif");
+    $("#device").attr('style',"margin: 0px auto;text-align: center;");
+    $("#hw").attr('class',"web");
+     $("#hw").attr('height',"100%");
+      $("#hw").attr('width',"100%");
+ });
+ $('.Ipad-vertical').click(function(e){
+     e.preventDefault();
+   ///$("#bg").attr('src',"template_preview/images/ipad-landscape-big.png");
+     $("#device").attr('style',"margin: 1em auto;text-align: center;");
+      $("#hw").attr('class',"ipad-frame-land");
+    // $("#hw").attr('style',"position: absolute;	left: 7.3%;	top: 55px;");
+     $("#hw").attr('height',"680");
+      $("#hw").attr('width',"1024");
 
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="js/bootstrap.min.js"></script>
-  </body>
-</html>
+ });
+$('.Ipad-hori').click(function(e){
+     e.preventDefault();
+   //$("#bg").attr('src',"template_preview/images/ipad-vertical-big.png");
+      $("#device").attr('style',"margin: 1em auto;text-align: center;");
+       //$("#hw").attr('style',"left:50px;top:135px");
+       $("#hw").attr('class',"ipad-frame-ver");
+      // $("#hw").attr('style',"	position: absolute;	left: 7.3%;	top: 75px;");
+     $("#hw").attr('height',"1024");
+      $("#hw").attr('width',"768");
+
+ });
+
+
+
+ $('.Iphone-vertical').click(function(e){
+     e.preventDefault();
+   ///$("#bg").attr('src',"template_preview/images/ipad-landscape-big.png");
+     $("#device").attr('style',"margin: 1em auto;text-align: center;");
+      $("#hw").attr('class',"smart-frame-var");
+    // $("#hw").attr('style',"position: absolute;	left: 7.3%;	top: 55px;");
+     $("#hw").attr('height',"320");
+      $("#hw").attr('width',"480");
+
+ });
+$('.Iphone-hori').click(function(e){
+     e.preventDefault();
+   //$("#bg").attr('src',"template_preview/images/ipad-vertical-big.png");
+      $("#device").attr('style',"margin: 1em auto;text-align: center;");
+       //$("#hw").attr('style',"left:50px;top:135px");
+       $("#hw").attr('class',"smart-frame-land");
+      // $("#hw").attr('style',"	position: absolute;	left: 7.3%;	top: 75px;");
+     $("#hw").attr('height',"480");
+      $("#hw").attr('width',"320");
+      });
+
+ $('.mobile').click(function(e){
+     e.preventDefault();
+   //$("#bg").attr('src',"template_preview/images/ipad-vertical-big.png");
+      $("#device").attr('style',"margin: 1em auto;text-align: center;");
+       //$("#hw").attr('style',"left:50px;top:135px");
+       $("#hw").attr('class',"mobile-frame");
+      // $("#hw").attr('style',"	position: absolute;	left: 7.3%;	top: 75px;");
+     $("#hw").attr('height',"500");
+      $("#hw").attr('width',"240");
+
+ });
+
+
+});
+
+</script>
+</head>
+<body>
+<div id="wrap" style="margin-top: 0px; position: relative;">
+<!-- Navbar -->
+<div id="topBar">
+	 <div class="wrap">
+	<div class="logo"><a href="/"><img src="images/logo.png" alt="W3layouts.com free mobile website templates"></a></div>
+	<div class="right">
+		<div class="devices">
+		<ul>
+		<li><a href="#" class="web"><img src="images/monitor.png" alt=""></a></li>
+		<li><a href="#" class="Ipad-hori"><img src="images/ipad-icon.png" alt="" /></a></li>
+		<li><a href="#" class="Ipad-vertical"><img src="images/ipad-landscape.png" alt="" /></a></li>
+					<li><a href="#" class="Iphone-vertical"><img src="images/iphone-icon.png" alt=""></a></li>
+		<li><a href="#" class="Iphone-hori"><img src="images/iphone-landscape.png" alt=""></a></li>
+		<li><a href="#" class="mobile"><img src="images/nokia-icon.png" alt=""></a></li>
+					</ul>
+	</div>
+		<!--<div class="social">
+			<ul>
+			<li>Share on </li>
+			<li><a href="mobile_demo.html"><img src="images/fb.png" alt=""></a></li>
+			<li><a href="http://w3layouts.com"><img src="images/tw.png" /></a></li>
+			<li><a href="mobile_demo.html"><img src="images/gp.png" alt=""></a></li>
+			<li><a href="mobile_demo.html"><img src="images/pin.png" alt=""></a></li>
+			</ul>
+		</div>-->
+		<div class="go-back">
+		 	<a href="/candid-photo-gallery-category-flat-bootstrap-responsive-web-template/">Download Template</a>
+		</div>
+		<a id="close-button" title="Remove Frame" class="closeMe" href="https://p.w3layouts.com/demos_new/template_demo/20-04-2017/candid-demo_Free/746449518/web/index.html" target="_blank"></a>
+	</div>
+
+	<div class="clear"></div>
+		 </div>
+</div>
+</div>
+<div style="" id="device">
+<iframe id="hw" class="web" src="https://p.w3layouts.com/demos_new/template_demo/20-04-2017/candid-demo_Free/746449518/web/index.html" name="livePreviewFrame" width="100%" height="100%" frameborder="0" noresize="noresize" style=" min-height: 100%;"> </iframe>
+</div>
+	<script>
+  var adjustFrame = function() {
+	var headerDimensions = $('#topBar').height();
+	$('#livePreviewFrame').height($(window).height() - headerDimensions);
+  }
+  $(document).ready(function() {
+	adjustFrame();
+	$('.closeMe').mouseover(function() {
+	  $('.closeMe').addClass('active');
+	}).mouseout(function() {
+	  $('.closeMe').removeClass('active');
+	});
+  });
+
+  $(window).resize(function() {
+	adjustFrame();
+  }).load(function() {
+	adjustFrame();
+  });
+</script>
+<script type="text/javascript">
+//		function to fix height of iframe!
+    var calcHeight = function() {
+	var headerDimensions = $('#headerlivedemo').height();
+	var selector = '#iframelive';
+	   if($('#wrap').hasClass('closed')) {
+		   $(selector).height($(window).height());
+	   } else {
+		   $(selector).height($(window).height() - headerDimensions);
+	   }
+    }
+    $(document).ready(function() {
+    calcHeight();
+    });
+    $(window).resize(function() {
+    calcHeight();
+    }).load(function() {
+    calcHeight();
+    });
+</script>
+</body>
+</html> <script type="text/javascript">
+		$.ajax({
+        url : "https://stat.w3layouts.com/submit_stat/Demostats/?action_type=2&template_type=1&pid=25758&uip=128.218.43.144&UA=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36",
+        dataType:"jsonp",
+        jsonp:"mycallback",
+        success:function(data)
+        {
+        }
+    });
+		</script>
