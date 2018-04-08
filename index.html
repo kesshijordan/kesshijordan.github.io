@@ -1,170 +1,128 @@
-
 <html>
-<head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title> Demo Candid a Photo Gallery Category Flat Bootstrap Responsive Web Template</title>
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link rel="stylesheet" href="css/style.css" />
-<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.8.1/jquery.min.js"></script>
-<script type='text/javascript'>//<![CDATA[
-   $(function() {
+<head>
+<!-- Latest compiled and minified CSS -->
 
- $('.web').click(function(e){
-     e.preventDefault();
-   //$("#bg").attr('src',"template_preview/images/2x2.gif");
-    $("#device").attr('style',"margin: 0px auto;text-align: center;");
-    $("#hw").attr('class',"web");
-     $("#hw").attr('height',"100%");
-      $("#hw").attr('width',"100%");
- });
- $('.Ipad-vertical').click(function(e){
-     e.preventDefault();
-   ///$("#bg").attr('src',"template_preview/images/ipad-landscape-big.png");
-     $("#device").attr('style',"margin: 1em auto;text-align: center;");
-      $("#hw").attr('class',"ipad-frame-land");
-    // $("#hw").attr('style',"position: absolute;	left: 7.3%;	top: 55px;");
-     $("#hw").attr('height',"680");
-      $("#hw").attr('width',"1024");
-
- });
-$('.Ipad-hori').click(function(e){
-     e.preventDefault();
-   //$("#bg").attr('src',"template_preview/images/ipad-vertical-big.png");
-      $("#device").attr('style',"margin: 1em auto;text-align: center;");
-       //$("#hw").attr('style',"left:50px;top:135px");
-       $("#hw").attr('class',"ipad-frame-ver");
-      // $("#hw").attr('style',"	position: absolute;	left: 7.3%;	top: 75px;");
-     $("#hw").attr('height',"1024");
-      $("#hw").attr('width',"768");
-
- });
+	<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
 
 
+<style>
+/* Move down content because we have a fixed navbar that is 50px tall */
+body {
+    font-family: 'Raleway', sans-serif;
+    margin: 60px auto;
+    width: 70%;
+}
+nav ul, footer ul {
+    font-family: 'Ubuntu', sans-serif;
+    padding: 0px;
+    list-style: none;
+    font-weight: bold;
+}
+nav ul li, footer ul li {
+    display: inline;
+    margin-right: 20px;
+}
+a {
+    text-decoration: none;
+    color: #009999;
+}
+a:hover {
+    text-decoration: underline;
+}
+h1 {
+    font-size: 3em;
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+}
+p {
+    font-size: 1.3em;
+    line-height: 1.4em;
+    color: #333;
+}
+footer {
+    border-top: 1px solid #d5d5d5;
+    font-size: .8em;
+}
+ul.posts {
+    margin: 20px auto 40px;
+    font-size: 1.5em;
+}
+ul.posts li {
+    list-style: none;
+}
+.img {
+	height: 150px;
+	border-style: solid;
+	border-radius: 250px;
+	border-color: white;
+}
+.container {
+	display: inline-block;
+}
+.blurb {
+	border-bottom: 1px solid #d5d5d5;
+	display: inline-block;
+}
+.projects {
+	padding-bottom: 20px;
+	display: inline-block;
+}
+</style>
 
- $('.Iphone-vertical').click(function(e){
-     e.preventDefault();
-   ///$("#bg").attr('src',"template_preview/images/ipad-landscape-big.png");
-     $("#device").attr('style',"margin: 1em auto;text-align: center;");
-      $("#hw").attr('class',"smart-frame-var");
-    // $("#hw").attr('style',"position: absolute;	left: 7.3%;	top: 55px;");
-     $("#hw").attr('height',"320");
-      $("#hw").attr('width',"480");
-
- });
-$('.Iphone-hori').click(function(e){
-     e.preventDefault();
-   //$("#bg").attr('src',"template_preview/images/ipad-vertical-big.png");
-      $("#device").attr('style',"margin: 1em auto;text-align: center;");
-       //$("#hw").attr('style',"left:50px;top:135px");
-       $("#hw").attr('class',"smart-frame-land");
-      // $("#hw").attr('style',"	position: absolute;	left: 7.3%;	top: 75px;");
-     $("#hw").attr('height',"480");
-      $("#hw").attr('width',"320");
-      });
-
- $('.mobile').click(function(e){
-     e.preventDefault();
-   //$("#bg").attr('src',"template_preview/images/ipad-vertical-big.png");
-      $("#device").attr('style',"margin: 1em auto;text-align: center;");
-       //$("#hw").attr('style',"left:50px;top:135px");
-       $("#hw").attr('class',"mobile-frame");
-      // $("#hw").attr('style',"	position: absolute;	left: 7.3%;	top: 75px;");
-     $("#hw").attr('height',"500");
-      $("#hw").attr('width',"240");
-
- });
-
-
-});
-
-</script>
 </head>
 <body>
-<div id="wrap" style="margin-top: 0px; position: relative;">
-<!-- Navbar -->
-<div id="topBar">
-	 <div class="wrap">
-	<div class="logo"><a href="/"><img src="images/basictracks.png" alt="W3layouts.com free mobile website templates"></a></div>
-	<div class="right">
-		<div class="devices">
-		<ul>
-		<li><a href="#" class="web"><img src="images/basictracks.png" alt=""></a></li>
-		<li><a href="#" class="Ipad-hori"><img src="images/basictracks.png" alt="" /></a></li>
-		<li><a href="#" class="Ipad-vertical"><img src="images/basictracks.png" alt="" /></a></li>
-					<li><a href="#" class="Iphone-vertical"><img src="images/asictracks.png" alt=""></a></li>
-		<li><a href="#" class="Iphone-hori"><img src="images/basictracks.png" alt=""></a></li>
-		<li><a href="#" class="mobile"><img src="images/basictracks.png" alt=""></a></li>
-					</ul>
-	</div>
-		<!--<div class="social">
-			<ul>
-			<li>Share on </li>
-			<li><a href="mobile_demo.html"><img src="images/fb.png" alt=""></a></li>
-			<li><a href="http://w3layouts.com"><img src="images/tw.png" /></a></li>
-			<li><a href="mobile_demo.html"><img src="images/gp.png" alt=""></a></li>
-			<li><a href="mobile_demo.html"><img src="images/pin.png" alt=""></a></li>
-			</ul>
-		</div>-->
-		<div class="go-back">
-		 	<a href="/candid-photo-gallery-category-flat-bootstrap-responsive-web-template/">Download Template</a>
-		</div>
-		<a id="close-button" title="Remove Frame" class="closeMe" href="https://p.w3layouts.com/demos_new/template_demo/20-04-2017/candid-demo_Free/746449518/web/index.html" target="_blank"></a>
-	</div>
 
-	<div class="clear"></div>
-		 </div>
-</div>
-</div>
-<div style="" id="device">
-<iframe id="hw" class="web" src="https://p.w3layouts.com/demos_new/template_demo/20-04-2017/candid-demo_Free/746449518/web/index.html" name="livePreviewFrame" width="100%" height="100%" frameborder="0" noresize="noresize" style=" min-height: 100%;"> </iframe>
-</div>
-	<script>
-  var adjustFrame = function() {
-	var headerDimensions = $('#topBar').height();
-	$('#livePreviewFrame').height($(window).height() - headerDimensions);
-  }
-  $(document).ready(function() {
-	adjustFrame();
-	$('.closeMe').mouseover(function() {
-	  $('.closeMe').addClass('active');
-	}).mouseout(function() {
-	  $('.closeMe').removeClass('active');
-	});
-  });
+<div class="container">
+			<div class="profile">
+				<img src="profile.jpg" class="img">
+			</div>
 
-  $(window).resize(function() {
-	adjustFrame();
-  }).load(function() {
-	adjustFrame();
-  });
-</script>
-<script type="text/javascript">
-//		function to fix height of iframe!
-    var calcHeight = function() {
-	var headerDimensions = $('#headerlivedemo').height();
-	var selector = '#iframelive';
-	   if($('#wrap').hasClass('closed')) {
-		   $(selector).height($(window).height());
-	   } else {
-		   $(selector).height($(window).height() - headerDimensions);
-	   }
-    }
-    $(document).ready(function() {
-    calcHeight();
-    });
-    $(window).resize(function() {
-    calcHeight();
-    }).load(function() {
-    calcHeight();
-    });
-</script>
+    		<div class="blurb">
+        		<h1>Kesshi Jordan</h1>
+						<p><emph> Postdoctoral Fellow </emph> </p>
+						<p>
+						<emph> University of California San Francisco, Memory and Aging & Dyslexia Centers </emph>
+					  </p>
+        </div>
+
+				<div class="projects">
+					<h2> Projects </h2>
+
+						<h3> Characterizing AV1451 Binding (Tau-PET) in Nonfluent Variant Primary Progressive Aphasia</h3>
+      			<img src="profile.jpg" class="img">
+
+
+						<h3> Diffusion MRI Fiber Tracking to Model White Matter Structure in Children with Dyslexia </h3>
+
+								I am working on a project to automatically segment language-related white matter fascicles from a whole-brain tractography dataset. The goal is to understand how white matter structure relates to reading abilities.
+
+
+						<h3> Neurosurgical Planning for Tumor Resection with Diffusion MRI </h3>
+
+							  Developed image-processing pipeline robust to mass effect and operative shift to automatically estimate connectivity of acute white matter injury <strong> <a href="https://www.biorxiv.org/content/early/2017/05/20/140137"> Preprint </a> </strong>
+
+						<h3> Systems-Based Neurotechnology for Emerging Therapies (SUBNETS) </h3>
+
+								 Diffusion MRI tractography to study the neurocircuitry of anxiety and depression as part of the SUBNETS initiative <strong> <a href="http://nipype.readthedocs.io/en/latest/"> Nipype </a> </strong>
+
+						<h3> Neuroimaging Pipelines </h3>
+
+							  I am a contributor to the following open-source repositories:
+
+                <strong> <a href="http://nipy.org/dipy/"> Nipype </a> </strong>, a scalable Python-based workflow engine for neuroimaging.
+
+                <strong> <a href="http://nipype.readthedocs.io/en/latest/"> Nipype </a> </strong>, a scalable Python-based workflow engine for neuroimaging.
+
+
+				</div>
 </body>
-</html> <script type="text/javascript">
-		$.ajax({
-        url : "https://stat.w3layouts.com/submit_stat/Demostats/?action_type=2&template_type=1&pid=25758&uip=128.218.43.144&UA=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36",
-        dataType:"jsonp",
-        jsonp:"mycallback",
-        success:function(data)
-        {
-        }
-    });
-		</script>
+		<footer>
+    		<ul>
+        		<li><a href="mailto:kesshi.jordan@gmail.com"><i class="fa fa-envelope-o fa-4x"></i></a></li>
+        		<li><a href="https://www.linkedin.com/in/kesshi-jordan-74449b27" target = _blank><i class="fa fa-linkedin-square fa-4x"></i></a></li>
+        		<li><a href="https://github.com/kesshijordan" target = _blank><i class="fa  fa-github-square fa-4x"></i></a></li>
+            <li><a href="https://memory.ucsf.edu/people/kesshi-jordan-phd" target = _blank><i class="fa  fa-address-card-square fa-4x"></i></a></li>
+			</ul>
+		</footer>
+
+</html>
